@@ -5,6 +5,6 @@ const TaskSchema = new mongoose.Schema({
     completed: Boolean,
 }, { timestamps: true });
 
+
 const Task = mongoose.model('Task', TaskSchema);
 
-module.exports = Task;

@@ -20,7 +20,7 @@ module.exports = {
                     completed:{
                         type:'boolean',
                         description:"Task status",
-                        example: true
+                        example: "true"
                     },  
                 }
             }

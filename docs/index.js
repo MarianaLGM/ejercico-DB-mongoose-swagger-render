@@ -6,9 +6,10 @@ const tasks = require("./tasks");
 const components = require("./components");
 
 module.exports = {
-    ...basicInfo,//SWAGGER 2
+    ...basicInfo,//SWAGGER 2 
     ...tasks, //SWAGGER 8
     ...components  //SWAGGER 5
 };
 
 
+//...spread operator lo que hace es hacer una copia sin tocar el original
